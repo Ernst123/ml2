@@ -1,6 +1,4 @@
 # ml2
-Skills Network Logo
-
 Taxi Tip Prediction using Scikit-Learn and Snap ML
 Estimated time needed: 30 minutes
 
@@ -237,4 +235,10 @@ Click here for the solution
 pred = tree.predict(X_test)
 
 print("MSE: ", mean_squared_error(y_test, pred))
+
+
+
+
+
+
 We learned that increasing the max_depth parameter to 12 increases the MSE
